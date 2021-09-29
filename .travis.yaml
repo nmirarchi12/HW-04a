@@ -12,4 +12,4 @@ install:
   - pip install requests
 # command to run tests
 script:
-  - python -m unittest testGitRequest
+  - python -m unittest testGitRequest.py
