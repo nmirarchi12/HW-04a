@@ -5,4 +5,4 @@ install:
   - pip install requests
 
 script:
-  - python -m unittest testGitRequest.py
+  - python -m unittest mocking.py
