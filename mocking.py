@@ -31,7 +31,7 @@ class TestHw4(unittest.TestCase):
                                      "Repo: php-app Number of commits": "11",
                                      "Repo: SSW-567 Number of commits": "7",
                                      "Repo: Triangle567 Number of commits": "8"}]
-        self.assertTrue(gitRequest.repository_info("mirarni"))
+        self.assertTrue(gitRequest.repository_info("nmirarchi12"))
 """
         repo_list = gitRequest.repository_info(Github)
         print(repo_list)
