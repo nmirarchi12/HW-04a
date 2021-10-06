@@ -18,7 +18,7 @@ class TestHw4(unittest.TestCase):
 
         mock_repository_info.return_value = Mock(ok=True)
         #mock_repository_info.json.return_value=myJson
-        response = repository_info()
+        response = repository_info(Github)
         #assert_list_equal(response.json(),myJson)
         assert_is_not_none(response)
 """
